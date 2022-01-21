@@ -16,8 +16,7 @@
 svg {
   height: 4rem;
   width: 4rem;
-  color: rgb(255, 217, 0);
-  stroke: 1px solid royalblue;
+  color: #19d860;
 }
 
 input[type="radio"]{

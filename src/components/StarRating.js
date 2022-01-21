@@ -6,7 +6,7 @@ const StarRating = () => {
 
   return (
   <div>
-    <FaStar/>
+    <FaStar className='eachStar'/>
   </div>
   )
 };

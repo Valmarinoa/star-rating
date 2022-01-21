@@ -1,0 +1,8 @@
+
+.eachStar{
+  transition: all .2s ease-in-out;
+}
+
+.eachStar:hover{
+  transform: scale(1.1);
+}
