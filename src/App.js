@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <div className='stars'>
         {[...Array(5)].map((star, i) => {
+
           const ratingKey = i + 1
 
           return <label key={i}>
@@ -30,7 +31,7 @@ function App() {
         })}
       </div>
       <div>
-        <h3>{reviews}</h3>
+        <h3>{reviews} stars</h3>
       </div>
 
     </div>
