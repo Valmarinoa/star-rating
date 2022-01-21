@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [reviews, setReviews] = useState(null)
+  const [hovered, setHover] = useState(null)
 
   return (
     <div className="App">
@@ -21,7 +22,9 @@ function App() {
               />
               <FaStar 
                 className='eachStar' 
-                color={ratingKey <= reviews ? "#19d860" : "#e4e5e9"}
+                color={ratingKey <= (hovered || reviews) ? "#19d860" : "#e4e5e9"}
+                onMouseEnter={() => setHover(ratingKey)}
+                onMouseLeave={() => setHover(null)}
                 />
           </label>
         })}

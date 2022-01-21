@@ -16,7 +16,7 @@
 svg {
   height: 4rem;
   width: 4rem;
-  color: #19d860;
+  color: #e4e5e9;
 }
 
 input[type="radio"]{
@@ -33,6 +33,7 @@ label{
 
 .eachStar:hover{
   transform: scale(1.1);
+  color: #19d860;
 }
 
 
